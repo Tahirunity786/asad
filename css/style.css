@@ -125,3 +125,34 @@ footer{
     position: absolute;
     bottom: 0px;
 }
+.y-btn2{
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .y-inp{
+        width: 90%;
+    }
+    .y-btn {
+        left: 81.6% !important;
+    }
+}
+@media (max-width: 768px) {
+    .y-inp{
+        width: 100%;
+    }
+    .y-btn {
+        left: 81.6% !important;
+    }
+}
+@media (max-width: 570px) {
+    .y-inp{
+        width: 100%;
+    }
+    .y-btn {
+        display: none;
+    }
+    .y-btn2 {
+        display: block;
+    }
+}
